@@ -1,3 +1,8 @@
+// @ts-ignore
+
+import BidTakeOff from "./components/BidTakeOff";
+
+// import BidTakeOff from '../../components/BidTakeOff.tsx';
 export default function Home() {
   return (
     <div className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden bg-gradient-to-b from-sky-100 via-white to-sky-50">
@@ -34,6 +39,7 @@ export default function Home() {
         <p className="mt-20 text-2xl font-medium text-gray-600">
           Launching 2026 — Built for GCs and Trade Partners who demand more.
         </p>
+        <BidTakeOff />
       </div>
     </div>
   );
